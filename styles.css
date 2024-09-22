@@ -1,0 +1,54 @@
+.container
+{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    color: #BFCC94;
+    background: #0D1821;
+    padding: 1em;
+}
+
+#content
+{
+    background: #0D1821;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card
+{
+    margin: 5em;
+    background: #344966;
+    width: 10em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#main
+{
+    font-weight: bold;
+    color: #F0F4EF;
+}
+
+#button
+{
+    padding: 1.6em;
+    background-color: #0D1821;
+    border: none;
+    color: #F0F4EF;
+    font-family: monospace;
+}
+#button:hover
+{
+    background-color: #F0F4EF;
+    color: #0D1821;
+}
